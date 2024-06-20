@@ -24,7 +24,7 @@ const Button = ({
       <button
         onClick={onClick}
         type={type}
-        className={`text-black border border-gray-500 px-12 py-4 rounded-md tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 w-[400px] md:w-auto ${
+        className={`text-black border border-gray-500 px-12 py-4 rounded-md tracking-widest uppercase font-bold hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200 w-[400px] md:w-auto ${
           actionButton
             ? isCompleted
               ? "bg-green-400 rounded-full px-4 hover:bg-green-700 border-none"

@@ -6,7 +6,7 @@ import Input from "../ui/Input";
 import { todoType } from "@/types/todoType";
 import { BiTrash } from "react-icons/bi";
 
-const DeleteTodo = ({ todo }: todoType) => {
+const DeleteTodo = ({ todo }: { todo: todoType }) => {
   return (
     <Form action={remove}>
       <Input type="hidden" name="inputId" value={todo.id} />

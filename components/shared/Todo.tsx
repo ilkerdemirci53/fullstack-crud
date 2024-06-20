@@ -3,7 +3,7 @@ import { todoType } from "@/types/todoType";
 import EditTodo from "./EditTodo";
 import DeleteTodo from "./DeleteTodo";
 
-const Todo = ({ todo }: todoType) => {
+const Todo = ({ todo }: { todo: todoType }) => {
   return (
     <div className="md:w-full flex items-center justify-between bg-[#616467] py-6 px-20 rounded-md text-white tracking-widest">
       <span className="text-center font-bold uppercase">{todo.title}</span>
